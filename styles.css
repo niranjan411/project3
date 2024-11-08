@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  
+  background:#5CE65C;
+}
+.navbar{
+    background-color: black;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-family: "Monoton", sans-serif;
+    width: auto;
+    font-size: 32px;
+    height: 20px;
+    color: #ffff;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    
+}
+.mainLinks{
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.3s;
+
+
+}
+.mainLinks > li {
+    margin: 10px;
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+
+
+.homeContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.passage{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.homeImage{
+    height: 400px;
+    width:400px;
+    transform: rotate(-90deg);
+}
+.heading{
+    line-height: 55px;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.info{
+    font-size: 20px;
+    font-weight: 300;
+}
+.passage > div{
+    margin: 17px 59px;
+}
+.navContents{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a > img {
+    height: auto;
+    width: 30px;
+    filter: invert();
+}
+.bgimg > img {
+    position: absolute;
+    height: 858px;
+    width: 941px;
+    transform: rotate(-54deg);
+    right: -179px;
+    top: 178px;
+}
+#hamburger-toggle{
+    display: none;
+}
+
+label > img{
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .hamburger-icon > img {
+        display: block;
+        visibility: visible;
+        filter: invert();
+        height: 30px;
+
+    }
+    .ham{
+        display: block;
+    }
+    
+    
+
+
+      .hamburger-icon {
+        cursor: pointer;
+        display: block;
+        order: 1;
+        margin-right: 20px;
+      }
+    
+      ul {
+        z-index: 10;
+        position: fixed;
+        top: 42px;
+        right: -100%;
+        background-color: green;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s;
+        background-color: rgb(255 255 255 / 30%);
+        backdrop-filter: blur(20px);
+    
+      }
+    
+      ul li {
+        margin: 20px 0;
+      }
+    
+      ul li a {
+        font-size: 20px;
+        color: #010101;
+      }
+    
+      #hamburger-toggle:checked~ul {
+        right: 0;
+      }
+
+
+      .hamburger-toggle {
+        visibility: visible;
+      }
+      .mainLinks {
+
+        display: none;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+      }
+      #hamburger-toggle:checked~.mainLinks {
+        display: block; /* Show the main links when the checkbox is checked */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+      }
+      .dropdown-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .dropdown-menu li {
+        border-bottom: 1px solid #444;
+      }
+    
+      
+    
+      .mainLinks a:hover {
+        background-color: #555;
+      }
+
+
+
+      .bgimg > img {
+        z-index: -1;
+        filter: blur(30%);
+      }
+
+
+
+
+
+    /* Styles for mobile screens */
+    .navbar {
+        height: 56px;
+    }
+
+    .navContents {
+        width: 95%;
+        padding: 0px 5px 0px 5px;
+    }
+
+    
+    .passage > div{
+        margin: 7px 0px;
+    }
+    .heading{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .info{
+        font-size: 18px;
+    }
+    .passage{
+        width: auto;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        backdrop-filter: blur(6px);
+        padding: 10px;
+
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .homeContent{
+        padding: 0px 10%;
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 29px;
+    line-height: 1;
+    }
+    .ham a{
+        visibility: visible;
+    }
+    
+    
+    
+    /* Additional styles specific to mobile screens */
+}
