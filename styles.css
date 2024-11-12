@@ -98,6 +98,7 @@ a > img {
     transform: rotate(-54deg);
     right: -179px;
     top: 178px;
+    background-size: contain;
 }
 #hamburger-toggle{
     display: none;
