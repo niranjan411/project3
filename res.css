@@ -1,0 +1,187 @@
+@media only screen and (max-width: 767px) {
+    
+    body{
+        height: auto;
+    }
+    .hamburger-icon > img {
+        display: block;
+        visibility: visible;
+        filter: invert();
+        height: 30px;
+
+    }
+    .ham{
+        display: block;
+    }
+    
+    
+
+
+      .hamburger-icon {
+        cursor: pointer;
+        display: block;
+        order: 1;
+        margin-right: 20px;
+      }
+    
+      ul {
+        z-index: 10;
+        position: fixed;
+        top: 42px;
+        right: -100%;
+        background-color: green;
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s;
+        background-color: rgb(255 255 255 / 30%);
+        backdrop-filter: blur(20px);
+    
+      }
+    
+      ul li {
+        margin: 20px 0;
+      }
+    
+      ul li a {
+        font-size: 20px;
+        color: #010101;
+      }
+    
+      #hamburger-toggle:checked~ul {
+        right: 0;
+      }
+
+
+      .hamburger-toggle {
+        visibility: visible;
+      }
+      .mainLinks {
+
+        display: none;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+      }
+      #hamburger-toggle:checked~.mainLinks {
+        display: block; /* Show the main links when the checkbox is checked */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+      }
+      .dropdown-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .dropdown-menu li {
+        border-bottom: 1px solid #444;
+      }
+    
+      
+    
+      .mainLinks a:hover {
+        background-color: #555;
+      }
+
+
+
+      .bgimg > img {
+        z-index: -1;
+        filter: blur(30%);
+        overflow: hidden;
+        position: fixed;
+      }
+
+
+
+
+
+    /* Styles for mobile screens */
+    .navbar {
+        height: 56px;
+    }
+
+    .navContents {
+        width: 95%;
+        padding: 0px 5px 0px 5px;
+    }
+
+    
+    .passage > div{
+        margin: 7px 0px;
+    }
+    .heading{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .info{
+        font-size: 18px;
+    }
+    .passage{
+        width: auto;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        backdrop-filter: blur(6px);
+        padding: 10px;
+
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .homeContent{
+        margin-left: 0px;
+        padding: 0px 10%;
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 29px;
+    line-height: 1;
+    }
+    .ham a{
+        visibility: visible;
+    }
+
+
+
+    body > div > div.categories > div > div.cards > div > div.img > img{
+        max-width: 100%;
+        padding: 10px;
+        max-height: 83px;
+    }
+    body > div > div.categories > div > div.cards > div > div.img{
+        width: auto;
+    }
+
+    body > div > div.categories > div > div.cards > div > div.Cname{
+        box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    }
+    body > div > div.categories > div > div.cards > div.card3 > div.img > img{
+        padding: 5px;
+    }
+    body > div > div.categories > div > div.cards > div.card7 > div.img > img{
+        padding: 5px;
+    }
+    body > div > div.categories > div > div.cards >div {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 21px 28px;
+    }
+    
+
+}

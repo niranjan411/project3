@@ -53,8 +53,9 @@ a {
 .homeContent{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    
     margin-top: 40px;
+    margin-left: 78px;
 }
 .passage{
     display: flex;
@@ -90,8 +91,8 @@ a > img {
     width: 30px;
     filter: invert();
 }
-.bgimg {
-    background-image: url(sideimg.png);
+.bgimg{
+    background-image: url(images/sideimg.png);
     position: absolute;
     height: 130vh;
     width: 153vh;
@@ -99,6 +100,8 @@ a > img {
     right: -215px;
     top: 241px;
     background-size: cover;
+    z-index: -1;
+    overflow: hidden;
 }
 
 #hamburger-toggle{
@@ -108,7 +111,52 @@ a > img {
 label > img{
     display: none;
 }
+.categories{
+    margin-top: 300px;
 
+}
+.boxCat{
+    display: flex;
+    background: #ffff;
+    border-radius: 20px;
+    
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+
+}
+.heading2{
+    font-size: 35px;
+    padding: 20px;
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body > div > div.categories > div > div.cards > div > div.img > img{
+    max-width: 88%;
+    padding: 10px;
+    max-height: 222px;
+}
+body > div > div.categories > div > div.cards > div.card3 > div.img > img{
+    padding: 0px;
+}
+body > div > div.categories > div > div.cards > div.card7 > div.img > img{
+    padding: 0px;
+}
+body > div > div.categories > div > div.cards > div > div.Cname{
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px 0px 40px;
+}
+/*
 @media only screen and (max-width: 767px) {
     .hamburger-icon > img {
         display: block;
@@ -174,7 +222,7 @@ label > img{
         text-decoration: none;
       }
       #hamburger-toggle:checked~.mainLinks {
-        display: block; /* Show the main links when the checkbox is checked */
+        display: block; 
         position: absolute;
         top: 100%;
         left: 0;
@@ -211,7 +259,7 @@ label > img{
 
 
 
-    /* Styles for mobile screens */
+    
     .navbar {
         height: 56px;
     }
@@ -249,7 +297,7 @@ label > img{
         flex-direction: column;
     }
     .logo{
-        font-size: 29px;
+    font-size: 29px;
     line-height: 1;
     }
     .ham a{
@@ -258,5 +306,5 @@ label > img{
     
     
     
-    /* Additional styles specific to mobile screens */
-}
+  
+}*/
