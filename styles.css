@@ -90,16 +90,17 @@ a > img {
     width: 30px;
     filter: invert();
 }
-.bgimg > img {
-    
+.bgimg {
+    background-image: url(sideimg.png);
     position: absolute;
-    height: 858px;
-    width: 941px;
+    height: 130vh;
+    width: 153vh;
     transform: rotate(-54deg);
-    right: -179px;
-    top: 178px;
-    background-size: contain;
+    right: -215px;
+    top: 241px;
+    background-size: cover;
 }
+
 #hamburger-toggle{
     display: none;
 }
