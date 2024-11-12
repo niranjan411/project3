@@ -62,11 +62,7 @@ a {
     flex-direction: column;
     width: 60%;
 }
-.homeImage{
-    height: 400px;
-    width:400px;
-    transform: rotate(-90deg);
-}
+
 .heading{
     line-height: 55px;
     font-size: 50px;
