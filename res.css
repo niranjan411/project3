@@ -39,7 +39,7 @@
         align-items: center;
         transition: all 0.3s;
         background-color: rgb(255 255 255 / 30%);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(15px);
     
       }
     
@@ -135,7 +135,7 @@
         width: auto;
         background: rgba(255, 255, 255, 0.3);
         border-radius: 20px;
-        backdrop-filter: blur(6px);
+        backdrop-filter: blur(15px);
         padding: 10px;
 
     }
@@ -195,17 +195,18 @@
       background-color: red;
       transition: background-color 2s ease;
       background-color: rgb(255 255 255 / 30%);
-        backdrop-filter: blur(6px);
+        backdrop-filter: blur(15px);
         
         background: linear-gradient(rgb(0 0 0 / 32%) 2%, rgb(255 255 255 / 30%) 8%);
         padding-top: 30px;
         margin-top: 0px;
+        margin-bottom: 100px;
   }
     .heading4{
       font-size: 28px;
     }
     form > button{
-      font-size: 40px;
+      font-size: 16px;
     }
     form > label {
       font-size: 17px;
@@ -219,7 +220,7 @@
     .about{
       background: rgb(0 0 0 / 44%);
     
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(15px);
     color: #ffff;
     padding-top: 20px;
     margin-top: 52px;
