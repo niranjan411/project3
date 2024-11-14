@@ -2,6 +2,7 @@
     
     body{
         height: auto;
+        transition: background-color 1s ease;
     }
     .hamburger-icon > img {
         display: block;
@@ -186,6 +187,52 @@
         align-items: center;
         margin: 0px 21px 28px;
     }
+    form{
+      width: 360px;
+    }
+    .contact{
+      position: relative;
+      background-color: red;
+      transition: background-color 2s ease;
+      background-color: rgb(255 255 255 / 30%);
+        backdrop-filter: blur(6px);
+        
+        background: linear-gradient(rgb(0 0 0 / 32%) 2%, rgb(255 255 255 / 30%) 8%);
+        padding-top: 30px;
+        margin-top: 0px;
+  }
+    .heading4{
+      font-size: 28px;
+    }
+    form > button{
+      font-size: 40px;
+    }
+    form > label {
+      font-size: 17px;
+    }
+    .heading3{
+      font-size: 28px;
+    }
+    .passage2{
+      font-size: 17px;
+    }
+    .about{
+      background: rgb(0 0 0 / 44%);
     
-
+    backdrop-filter: blur(6px);
+    color: #ffff;
+    padding-top: 20px;
+    margin-top: 52px;
+    padding-bottom: 20px;
+    margin-bottom: -0.479px;
+   
+    }
+    form{
+      width: 300px;
+    }
+    form > input{
+      height: 43px;
+      border-radius: 13px;
+    }
+    
 }
