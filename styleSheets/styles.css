@@ -88,7 +88,7 @@ a > img {
     filter: invert();
 }
 .bgimg{
-    background-image: url(images/sideimg.png);
+    background-image: url(../images/sideimg.png);
     position: absolute;
     height: 130vh;
     width: 153vh;
@@ -118,7 +118,8 @@ label > img{
     
     flex-direction: column;
     align-items: center;
-    margin: 5%;
+    margin: 7%;
+    color: black;
 
 }
 .heading2{
@@ -131,30 +132,42 @@ label > img{
     flex-wrap: wrap;
     justify-content: center;
 }
-
-body > div > div.categories > div > div.cards > div > div.img > img{
+#categories > div.cards > div > div.img > img
+{
     max-width: 88%;
     padding: 10px;
     max-height: 222px;
 }
-body > div > div.categories > div > div.cards > div.card3 > div.img > img{
+#categories > div.cards > div.card3 > div.img > img
+{
     padding: 0px;
 }
-body > div > div.categories > div > div.cards > div.card7 > div.img > img{
+#categories > div.cards > div.card7 > div.img > img
+{
     padding: 0px;
 }
-body > div > div.categories > div > div.cards > div > div.Cname{
+#categories > div.cards > div > div.Cname {
     box-sizing: border-box;
     font-size: 20px;
     font-weight: 300;
     display: flex;
     justify-content: center;
+    color: black;
     
     padding: 10px 0px 40px;
 }
 .boxAbout{
     margin: 7%;
+    background-color: #ffff;
+    border-radius: 17px;
+    padding: 55px;
+    color: black;
+    
+    
 }
+
+  
+  
 .heading3{
     margin: 30px;
     font-size: 35px;
@@ -221,156 +234,82 @@ form > label {
 div{
     transition: background-color 0.5s ease;
 }
-
-/*
-@media only screen and (max-width: 767px) {
-    .hamburger-icon > img {
-        display: block;
-        visibility: visible;
-        filter: invert();
-        height: 30px;
-
-    }
-    .ham{
-        display: block;
-    }
+.about{
+    display: flex;
+    flex-direction: column;
+   
     
+}
+.boxServices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sTitle{
+    font-size: 40px;
+    font-weight: 400;
+    justify-self: center;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 32px 7%;
     
-
-
-      .hamburger-icon {
-        cursor: pointer;
-        display: block;
-        order: 1;
-        margin-right: 20px;
-      }
-    
-      ul {
-        z-index: 10;
-        position: fixed;
-        top: 42px;
-        right: -100%;
-        background-color: green;
-        width: 100%;
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        transition: all 0.3s;
-        background-color: rgb(255 255 255 / 30%);
-        backdrop-filter: blur(20px);
-    
-      }
-    
-      ul li {
-        margin: 20px 0;
-      }
-    
-      ul li a {
-        font-size: 20px;
-        color: #010101;
-      }
-    
-      #hamburger-toggle:checked~ul {
-        right: 0;
-      }
-
-
-      .hamburger-toggle {
-        visibility: visible;
-      }
-      .mainLinks {
-
-        display: none;
-        color: white;
-        padding: 10px;
-        text-decoration: none;
-      }
-      #hamburger-toggle:checked~.mainLinks {
-        display: block; 
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: #fff;
-        width: 100%;
-        padding: 20px;
-        text-align: center;
-      }
-      .dropdown-menu ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-    
-      .dropdown-menu li {
-        border-bottom: 1px solid #444;
-      }
-    
-      
-    
-      .mainLinks a:hover {
-        background-color: #555;
-      }
-
-
-
-      .bgimg > img {
-        z-index: -1;
-        filter: blur(30%);
-        overflow: hidden;
-      }
-
-
-
-
 
     
-    .navbar {
-        height: 56px;
-    }
+}
+.boxServices > .services > .Sbox {
 
-    .navContents {
-        width: 95%;
-        padding: 0px 5px 0px 5px;
-    }
-
-    
-    .passage > div{
-        margin: 7px 0px;
-    }
-    .heading{
-        font-size: 30px;
-        line-height: 35px;
-    }
-    .info{
-        font-size: 18px;
-    }
-    .passage{
-        width: auto;
-        background: rgba(255, 255, 255, 0.3);
-        border-radius: 20px;
-        backdrop-filter: blur(6px);
-        padding: 10px;
-
-    }
-    .buttons{
-        display: flex;
-        justify-content: center;
-    }
-    .homeContent{
-        padding: 0px 10%;
-        flex-direction: column;
-    }
-    .logo{
-    font-size: 29px;
-    line-height: 1;
-    }
-    .ham a{
-        visibility: visible;
-    }
-    
-    
-    
-  
-}*/
+    padding: 43px;
+    width: 403px;
+    margin: 0px 12px;
+    background: #f0e9e9;
+    display: flex;
+    border-radius: 35px;
+    flex-direction: column;
+}
+.Sbox > .boxTitle{
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.Sbox > .info{
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 300;
+}
+#loginModal > div > div > div.modal-body > form > div:nth-child(1) > label{
+    font-weight: 400;
+}
+#loginModal > div > div > div.modal-body > div > p{
+    font-weight: 300;
+}
+#loginModal > div > div > div.modal-body{
+    justify-items: center;
+}
+#loginModal > div > div > div.modal-body > div > p > a{
+    font-size: medium;
+    font-weight: 400;
+    color: #429aff;   
+}
+#signUpModal > div > div > div.modal-body > form > div:nth-child(1) > label{
+    font-weight: 400;
+}
+#signUpModal > div > div > div.modal-body > div > p{
+    font-weight: 300;
+}
+#signUpModal > div > div > div.modal-body{
+    justify-items: center;
+}
+#signUpModal > div > div > div.modal-body > div > p > a{
+    font-size: medium;
+    font-weight: 400;
+    color: #429aff;   
+}
+#mainLinks > li.servicesLink{
+    margin: 6px;
+}
+body > div > footer > div > div > div > p{
+    font-weight: 300;
+}

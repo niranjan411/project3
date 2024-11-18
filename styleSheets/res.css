@@ -158,27 +158,36 @@
 
 
 
-    body > div > div.categories > div > div.cards > div > div.img > img{
+    #categories > div.cards > div > div.img > img{
         max-width: 100%;
         padding: 10px;
         max-height: 83px;
     }
-    body > div > div.categories > div > div.cards > div > div.img{
+    #categories > div.cards > div > div.img {
         width: auto;
     }
 
-    body > div > div.categories > div > div.cards > div > div.Cname{
+    #categories > div.cards > div > div.Cname {
         box-sizing: border-box;
     font-size: 17px;
     font-weight: 300;
     display: flex;
     justify-content: center;
     }
-    body > div > div.categories > div > div.cards > div.card3 > div.img > img{
+    #categories > div.cards > div.card3 > div.img > img{
         padding: 5px;
     }
-    body > div > div.categories > div > div.cards > div.card7 > div.img > img{
+    #categories > div.cards > div.card7 > div.img > img{
         padding: 5px;
+    }
+    #categories > div.cards > div{
+      width: 165px;
+        
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
     }
     body > div > div.categories > div > div.cards >div {
         display: flex;
@@ -226,6 +235,7 @@
     margin-top: 52px;
     padding-bottom: 20px;
     margin-bottom: -0.479px;
+    width: fit-content;
    
     }
     form{
@@ -234,6 +244,26 @@
     form > input{
       height: 43px;
       border-radius: 13px;
+    }
+    .boxServices > .services > .Sbox {
+      width: 354px;
+      background-color: #444;
+    }
+
+
+
+    .sTitle{
+      font-size: 35px;
+    }
+    .Sbox > .boxTitle{
+      font-size: 35px;
+      line-height: 35px;
+    }
+    .Sbox > .info{
+      font-size: 16px;
+    }
+    .boxServices > .services > .Sbox {
+      margin: 10px 0px;
     }
     
 }
