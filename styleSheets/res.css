@@ -22,11 +22,10 @@
         cursor: pointer;
         display: block;
         order: 1;
-        margin-right: 20px;
+        margin-right: 0px;
       }
-    
-      ul {
-        z-index: 10;
+      #mainLinks > ul {
+        z-index: 20;
         position: fixed;
         top: 42px;
         right: -100%;
@@ -74,6 +73,7 @@
         left: 0;
         background-color: #fff;
         width: 100%;
+        z-index: 1;
         padding: 20px;
         text-align: center;
       }
@@ -136,7 +136,7 @@
         background: rgba(255, 255, 255, 0.3);
         border-radius: 20px;
         backdrop-filter: blur(15px);
-        padding: 10px;
+        padding: 27px;
 
     }
     .buttons{
@@ -145,7 +145,7 @@
     }
     .homeContent{
         margin-left: 0px;
-        padding: 0px 10%;
+        padding: 0px 7%;
         flex-direction: column;
     }
     .logo{
@@ -166,13 +166,19 @@
     #categories > div.cards > div > div.img {
         width: auto;
     }
-
+    .heading2{
+      font-size: 26px;
+    }
+    .boxCat{
+      padding-bottom: 30px;
+    }
     #categories > div.cards > div > div.Cname {
-        box-sizing: border-box;
-    font-size: 17px;
-    font-weight: 300;
-    display: flex;
-    justify-content: center;
+      font-size: 15px;
+      font-weight: 500;
+      color: #4e4646;
+      line-break: auto;
+      padding: 0px;
+      margin-bottom: 10px;
     }
     #categories > div.cards > div.card3 > div.img > img{
         padding: 5px;
@@ -221,10 +227,14 @@
       font-size: 17px;
     }
     .heading3{
-      font-size: 28px;
+      margin: 10px 10px 21px;
+        font-size: 23px;
+    }
+    hr{
+      width: 43%;
     }
     .passage2{
-      font-size: 17px;
+      font-size: 15px;
     }
     .about{
       background: rgb(0 0 0 / 44%);
@@ -238,6 +248,9 @@
     width: fit-content;
    
     }
+    .boxAbout{
+      padding: 37px;
+    }
     form{
       width: 300px;
     }
@@ -247,23 +260,26 @@
     }
     .boxServices > .services > .Sbox {
       width: 354px;
-      background-color: #444;
+      background-color: #FF6347;
     }
 
 
 
     .sTitle{
-      font-size: 35px;
+      font-size: 30px;
     }
     .Sbox > .boxTitle{
-      font-size: 35px;
+      font-size: 30px;
       line-height: 35px;
     }
     .Sbox > .info{
-      font-size: 16px;
+      font-size: 15px;
     }
     .boxServices > .services > .Sbox {
       margin: 10px 0px;
     }
+    body > div > footer > div{
+      padding: 0px 8%;
+  }
     
 }
